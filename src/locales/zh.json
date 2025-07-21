@@ -1,0 +1,182 @@
+{
+  "onboardingForm": {
+    "cardTitleForName": "輸入您的基本資料",
+    "saveBtn": "儲存",
+    "labelForInputFullName": "姓名",
+    "placeHolderForInputFullName": "王曉菲",
+    "labelForInputLinuxUsername": "Linux 使用者名稱",
+    "successToast": "基本資訊儲存成功",
+    "formatErrorToast": "Linux 使用者名稱須以小寫字母或底線開頭，可含小寫字母、數字、底線、連字號(-)，結尾可為 $，不可含空白",
+    "saveFailToast": "基本資訊儲存失敗",
+    "EmptyLinuxUsernameToast": "Linux 使用者名稱不可包含空白字元",
+    "loadingBtn": "載入中...",
+    "saveBtnToolTip": "請填入你的姓名和Linux使用者名稱"
+  },
+  "login": {
+    "loginTitle": "登入",
+    "nycuLoginNote": "國立陽明交通大學在學生 請透過單一入口登入",
+    "nycuLoginBtn": "使用國立陽明交通大學單一入口登入",
+    "googleLoginNote": "非國立陽明交通大學在學生 請使用 Google 帳號登入",
+    "googleLoginBtn": "使用 Google 登入"
+  },
+  "navbar": {
+    "loginBtn": "登入",
+    "logoutBtn": "登出",
+    "groupLink": "群組",
+    "settingLink": "設定"
+  },
+  "callback": {
+    "loadingMessage": "載入中...",
+    "loginSuccessToast": "登入成功",
+    "loginFailToast": "登入失敗"
+  },
+  "authProvider": {
+    "logoutToast": "已登出"
+  },
+  "guestRoute": {
+    "alreadyLoggedInToast": "已登入"
+  },
+  "protectedRoute": {
+    "loginRequiredToast": "請先登入",
+    "roleNotSetupToast": "請先填寫基本資料"
+  },
+  "settingSideBar": {
+    "title": "設定",
+    "GeneralNavLink": "一般",
+    "SSHNavLink": "SSH"
+  },
+  "settingAddKeyForm": {
+    "cardTitleForTitle": "標題",
+    "cardDescriptionForTitle": "為公鑰命名一個標題",
+    "placeHolderForInputTitle": "我的筆電",
+    "cardTitleForKey": "公鑰",
+    "cardDescriptionForKey": "在此貼上公鑰內容(不是私鑰)，公鑰副檔名一般以 .pub 結尾",
+    "placeHolderForInputKey": "開頭應為：ssh-rsa、ecdsa-sha2-nistp256、ecdsa-sha2-nistp384、ecdsa-sha2-nistp521、ssh-ed25519、sk-ecdsa-sha2-nistp256@openssh.com 或 sk-ssh-ed25519@openssh.com",
+    "saveBtn": "新增公鑰",
+    "cancelBtn": "取消",
+    "saveBtnToolTip": "請先填寫標題跟公鑰",
+    "successToast": "公鑰儲存成功",
+    "formatErrorToast": "公鑰格式錯誤",
+    "saveFailToast": "公鑰儲存失敗",
+    "loadingBtn": "載入中..."
+  },
+  "settingFullNameForm": {
+    "cardTitleForFullName": "姓名",
+    "cardDescriptionForFullName": "你的真實姓名以讓群組管理員辨識你",
+    "saveBtn": "儲存",
+    "placeHolderForInputFullName": "王曉菲",
+    "successToast": "姓名儲存成功",
+    "emptyErrorToast": "請輸入姓名",
+    "saveFailToast": "無法儲存姓名",
+    "getFailToast": "無法取得姓名",
+    "loadingBtn": "載入中...",
+    "saveBtnToolTip": "請填入你的姓名",
+    "cardTitleForLanguage": "語言",
+    "cardDescriptionForLanguage": "選擇在 Clustron 顯示的語言"
+  },
+  "settingLinuxUsernameForm": {
+    "cardTitleForLinuxUsername": "Linux 使用者名稱",
+    "cardDescriptionForLinuxUsername": "用於登入到遠端伺服器的名稱",
+    "saveBtn": "儲存",
+    "successToast": "Linux 使用者名稱儲存成功",
+    "saveFailToast": "無法儲存 Linux 使用者名稱",
+    "getFailToast": "無法取得 Linux 使用者名稱",
+    "loadingBtn": "載入中...",
+    "saveBtnToolTip": "請填入你的 Linux 使用者名稱"
+  },
+  "settingKeyTable": {
+    "cardTitleForKeyTable": "SSH 金鑰",
+    "addNewKeyBtn": "＋ 新增 SSH 公鑰",
+    "tableHeadForTitle": "標題",
+    "tableHeadForKey": "公鑰",
+    "successToast": "公鑰刪除成功",
+    "deleteFailToast": "公鑰刪除失敗",
+    "getFailToast": "無法取得公鑰列表",
+    "confirmTitle": "確定要刪除這把公鑰嗎？",
+    "confirmDescription": "刪除後將無法復原，請謹慎操作。",
+    "cancelBtn": "取消",
+    "confirmBtn": "刪除",
+    "loadingBtn": "載入中..."
+  },
+  "groupComponents": {
+    "addMemberButton": {
+      "newMembers": "新增成員"
+    },
+    "groupMemberTable": {
+      "members": "成員",
+      "loadingMembers": "正在載入成員...",
+      "failedToLoadMembers": "載入成員失敗。",
+      "noMembersFound": "找不到成員。",
+      "name": "姓名",
+      "studentIdOrEmail": "學號或電子信箱",
+      "role": "角色",
+      "loadingMore": "載入更多中...",
+      "loadMore": "載入更多"
+    },
+    "groupSideBar": {
+      "overview": "總覽",
+      "groupSettings": "群組設定"
+    },
+    "memberDeleteButton": {
+      "removeUser": "移除使用者",
+      "deleteUserConfirm": "確認刪除使用者",
+      "deleteConfirmation": "您確定要刪除這個使用者嗎？此操作無法復原。",
+      "cancel": "取消",
+      "delete": "刪除"
+    },
+    "addMemberRow": {
+      "enterStudentIdOrEmail": "輸入學號或電子信箱",
+      "selectRole": "選擇角色",
+      "duplicateEntry": "重複項目"
+    },
+    "roles": {
+      "group_owner": "群組擁有者",
+      "teacher_assistant": "助教",
+      "student": "學生",
+      "auditor": "旁聽生"
+    }
+  },
+  "groupPages": {
+    "addMemberPage": {
+      "title": "新增成員",
+      "studentIdOrEmail": "學號或電子信箱",
+      "role": "角色",
+      "loading": "載入中...",
+      "courseNotFound": "找不到課程。",
+      "cancel": "取消",
+      "save": "儲存"
+    },
+    "createGroup": {
+      "title": "建立新群組",
+      "courseTitlePlaceholder": "課程標題",
+      "courseDescriptionPlaceholder": "課程描述",
+      "addInitialMembers": "新增初始成員",
+      "studentIdOrEmail": "學號或電子信箱",
+      "role": "角色",
+      "cancel": "取消",
+      "create": "建立"
+    },
+    "groupList": {
+      "newCourse": "+ 新課程",
+      "loading": "載入中...",
+      "loadingFailed": "載入失敗",
+      "noCourses": "你尚未加入任何課程。"
+    },
+    "groupOverview": {
+      "provideCourseId": "請提供課程 ID",
+      "loading": "載入中...",
+      "courseNotFound": "找不到課程"
+    },
+    "groupSettings": {
+      "loadingGroupInfo": "載入群組資訊中...",
+      "deleteFailed": "刪除失敗：",
+      "unarchiveGroup": "解除封存此群組",
+      "archiveGroup": "封存此群組",
+      "unarchiveDescription": "這將重新啟用群組並允許再次更新。",
+      "archiveDescription": "這將把群組轉為封存狀態，在重新啟用前無法進行更動。",
+      "saving": "儲存中...",
+      "unarchive": "解除封存",
+      "archive": "封存"
+    }
+  }
+}
